@@ -88,13 +88,38 @@
 					</div>
 
 					<hr>
+<div id="carouselControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="imagenes/car1.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="imagenes/car2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="imagenes/car3.jpg" alt="Third slide">
+    </div>
+      <div class="carousel-item">
+      <img class="d-block w-100" src="imagenes/car4.jpg" alt="Four slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+					
 
 					<div class="d-flex flex-wrap flex-row-reverse"> 
 						<div class="card card-hotel d-flex flex-column justify-content-between ml-2">
 							<img class="card-img-top" src="imagenes/hot.jpg" alt="Responsive image">
 							<div class="card-body">
 
-								<h5 class="card-tilte">Hotel Barcelona <span class="badge badge-secondary">New</span></span></span></h5>
+								<h5 class="card-title">Hotel Barcelona <span class="badge badge-secondary">New</span></span></span></h5>
 								<h6 class="card-subtitle text-muted">España</h6>
 
 								<p class="card-text">Hotel ubicado en pleno centro de Barcelona a pocos metros de la playa.</p>
@@ -107,8 +132,8 @@
 						<div class="card card-hotel d-flex flex-column justify-content-between ml-2">
 							<img class="card-img-top" src="imagenes/play.jpg" alt="Responsive image">
 							<div class="card-body">
-								<h5 class="card-tilte">Hotel Buenos Aires</h5>
-								<h6 class="card-subtilte">Hotel Buenos Aires</h6>
+								<h5 class="card-title">Hotel Buenos Aires</h5>
+								<h6 class="card-subtitle">Hotel Buenos Aires</h6>
 								<p class="card-text">Hotel ubicado en pleno centro.</p>
 
 							</div>
@@ -119,20 +144,20 @@
 						<div class="card card-hotel d-flex flex-column justify-content-between ml-2">
 							<img class="card-img-top" src="imagenes/hot3.jpg" alt="Responsive image">
 							<div class="card-body">
-								<h5 class="card-tilte">Hotel Lima <span class="badge badge-secondary">New </span></h5>
-								<h6 class="card-subtilte">Peru</h6>
+								<h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Hotel Lima <span class="badge badge-secondary">New </span></h5>
+								<h6 class="card-subtitle">Peru</h6>
 								<p class="card-text">Hotel ubicado en pleno centro.</p>
 
 							</div>
 							<div>
-								<button type="button" class="btn btn-primary btn-reserva"><span class="oi oi-plus footer-adress-icon"></span>Reservar</button>
+								<button type="button" class="btn btn-primary btn-reserva" data-toggle="popover" title="Promociones" data-content="Consulta el comunicado pertinente"><span class="oi oi-plus footer-adress-icon"></span>Reservar</button>
 							</div>
 						</div>
 						<div class="card card-hotel d-flex flex-column justify-content-between ml-2">
 							<img class="card-img-top" src="imagenes/play.jpg" alt="Responsive image">
 							<div class="card-body">
-								<h5 class="card-tilte">Hotel Rio de Janeiro</h5>
-								<h6 class="card-subtilte">Brazil</h6>
+								<h5 class="card-title">Hotel Rio de Janeiro</h5>
+								<h6 class="card-subtitle" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Brazil</h6>
 								<p class="card-text">Hotel ubicado en pleno centro de Rio de Janeiro a pocos metros de la playa.</p>
 
 							</div>
@@ -143,8 +168,8 @@
 						<div class="card card-hotel d-flex flex-column justify-content-between ml-2">
 							<img class="card-img-top" src="imagenes/play.jpg" alt="Responsive image">
 							<div class="card-body">
-								<h5 class="card-tilte">Hotel Ferca</h5>
-								<h6 class="card-subtilte">Venezuela</h6>
+								<h5 class="card-title">Hotel Ferca</h5>
+								<h6 class="card-subtitle">Venezuela</h6>
 								<p class="card-text">Hotel ubicado en pleno centro de Barcelona a pocos metros de la playa.</p>
 
 							</div>
@@ -156,8 +181,8 @@
 						<div class="card card-hotel d-flex flex-column justify-content-between ml-2">
 							<img class="card-img-top" src="imagenes/play.jpg" alt="Responsive image">
 							<div class="card-body">
-								<h5 class="card-tilte">Hotel La Paz</h5>
-								<h6 class="card-subtilte">Bolivia</h6>
+								<h5 class="card-title">Hotel La Paz</h5>
+								<h6 class="card-subtitle">Bolivia</h6>
 								<p class="card-text">Hotel ubicado en pleno centro.</p>
 
 							</div>
@@ -169,9 +194,10 @@
 						<div class="card card-hotel d-flex flex-column justify-content-between ml-2">
 							<img class="card-img-top" src="imagenes/play.jpg" alt="Responsive image">
 							<div class="card-body">
-								<h5 class="card-tilte">Hotel Madrid</h5>
-								<h6 class="card-subtilte">España</h6>
+								<h5 class="card-title">Hotel Madrid</h5>
+								<h6 class="card-subtitle">España</h6>
 								<p class="card-text">Hotel ubicado en pleno centro.</p>
+								
 
 							</div>
 
@@ -182,8 +208,8 @@
 						<div class="card card-hotel d-flex flex-column justify-content-between ml-2">
 							<img class="card-img-top" src="imagenes/play.jpg" alt="Responsive image">
 							<div class="card-body">
-								<h5 class="card-tilte">Hotel San Pablo</h5>
-								<h6 class="card-subtilte">Bolivia</h6>
+								<h5 class="card-title">Hotel San Pablo</h5>
+								<h6 class="card-subtitle">Bolivia</h6>
 								<p class="card-text">Hotel ubicado en pleno centro.</p>
 
 							</div>
@@ -193,7 +219,44 @@
 
 
 							</div>
+</div>
+							</div>
+							<div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+							<div class="card-body">
+								<h5 class="card-title">Hotel San Pablo</h5>
+								<h6 class="card-subtitle">Bolivia</h6>
+								<p class="card-text">Hotel ubicado en pleno centro.</p>
+<button type="button" class="btn btn-success" data-toggle="modal" data-target="#contacto"> Contacto</button>
+							</div>
+					</div>
+				
+			</div>
+
+			<div class="modal fade" id="contacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Contacto con el hotel</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
 						</div>
+						<div class="modal-body">
+							<form>
+								<div class="form-group" >
+									<label for="recipient-name" class="col-form-label">Tu email:</label>
+									<input type="text" class="form-control" id="recipient-name">
+								</div>
+								<div class="form-group" >
+									<label for="recipient-name" class="col-form-label">Mensaje:</label>
+									<input class="form-control" id="message-text">
+								</div>
+								<div class="modal-footer" >
+									<button type="button" class="btn btn-success">Enviar</button>
+								</div>
+							</form>
+						</div>
+						
 					</div>
 				</div>
 			</div>
@@ -227,7 +290,16 @@
 			<!-- Optional JavaScript -->
 			<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 			<script src="node_modules/jquery/dist/jquery.min.js"></script>
-			<script src="node_modules/popper.js/dist/popper.min.js"></script>
+			<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 			<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+			<script>
+				$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+  $('[data-toggle="popover"]').popover()
+$('.carousel').carousel({
+  interval: 3000
+})
+})
+			</script>
 		</body>
 		</html>
